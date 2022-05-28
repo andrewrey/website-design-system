@@ -76,6 +76,10 @@ body {
   padding: 0 55px;
 }
 
+h1 {
+  margin: 25px 0;
+}
+
 header,
 section {
   max-width: 1200px;
@@ -88,40 +92,50 @@ section {
   margin-bottom: 20px;
   padding: 20px;
 }
-section ul {
+section .color__list {
   list-style-type: none;
-  border: 1px solid green;
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: space-between;
   padding: 0;
 }
-section ul li {
+section .color__list li {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   flex-basis: 30%;
   height: 100px;
   gap: 16px;
 }
-section ul li.blue {
+section .color__list li.blue {
   background-color: #2d5dcc;
   color: white;
 }
-section ul li.pink {
+section .color__list li.pink {
   background-color: #d957d9;
 }
-section ul li.green {
+section .color__list li.green {
   background-color: #4fe0b0;
 }
-section ul li.beige {
+section .color__list li.beige {
   background-color: #efd9ca;
 }
 section h2 {
   margin-bottom: 30px;
+}
+section .font-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+section .font-container h3 {
+  text-decoration: underline;
+}
+section .font-container div {
+  flex-basis: 45%;
 }
 
 /*# sourceMappingURL=style.css.map */
