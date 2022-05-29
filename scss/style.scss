@@ -1,5 +1,7 @@
 @use "reset";
 
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@400;500;800&display=swap");
+
 body {
   padding: 0 55px;
 }
@@ -68,4 +70,24 @@ section {
       // border: 1px solid yellow;
     }
   }
+}
+
+.source {
+  font-family: "Source Code Pro", monospace;
+}
+
+.nunito {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
 }
